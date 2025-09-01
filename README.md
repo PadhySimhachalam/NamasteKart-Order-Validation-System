@@ -2,7 +2,7 @@ NamasteKart-Order-Validation-System
 -------------------------------------------
 
 An automated data validation and file processing project built to ensure daily retail orders are accurate, clean, and business-ready.
-This project focuses on validating transactions for NamasteKart (operating in Bangalore and Mumbai) using Python ETL logic with robust error handling and file segregation.
+This project focuses on validating transactions for NamasteKart (operating in Bangalore and Mumbai) using Python with robust error handling and file segregation.
 
 Tech Stack
 -----------------
@@ -17,16 +17,18 @@ File System – Organized folder hierarchy for incoming, success, and rejected f
 
 Data Source
 ------------------
-Product Master (product_master.csv)
-Product ID
-Price
-Daily Orders (orders_YYYYMMDD.csv)
-Order ID
-Order Date
-Product ID
-Quantity
-Sales Amount
-City
+- Product Master (product_master.csv)
+  - Product ID
+  - Price
+  - Product Name
+  - category
+- Daily Orders (orders_YYYYMMDD.csv)
+  - Order ID
+  - Order Date
+  - Product ID
+  - Quantity
+  - Sales Amount
+  - City
 
 Goal of the Project
 ----------------------------
