@@ -9,8 +9,6 @@ Tech Stack
 
 Python (csv, os, datetime, shutil) – File processing, validations, and automation
 
-Pandas (optional extension) – Advanced data validation & transformations
-
 CSV – Input order data & master product data
 
 File System – Organized folder hierarchy for incoming, success, and rejected files
